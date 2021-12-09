@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smkrevit.ukom">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="hi light"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ukom">
+        <activity android:name=".FormulirPenyewaan"></activity>
+        <activity android:name=".Pesanan" />
+        <activity android:name=".Riwayat" />
+        <activity android:name=".Keranjang" />
+        <activity android:name=".EditPersewaan" />
+        <activity android:name=".Profil2" />
+        <activity android:name=".DaftarPersewaan" />
+        <activity android:name=".MasukPersewaan" />
+        <activity android:name=".EditPenyewa" />
+        <activity android:name=".Daftar" />
+        <activity android:name=".Masuk" />
+        <activity android:name=".Profil1" />
+        <activity android:name=".login_user" />
+        <activity android:name=".MainActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".splashscreen"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1EBCB3B3"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:id="@+id/bottom_navigasi"-->
+    <!--        android:background="@color/green"-->
+    <!--        app:menu="@menu/menu_navigasi"-->
+    <!--        android:layout_alignParentBottom="true" />-->
+    <!--        app:itemTextColor="@drawable/selector"-->
+    <!--        app:itemIconTint="@drawable/selector"-->
+
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/green"
+        android:backgroundTint="@color/green" />
+
+    <SearchView
+        android:layout_width="266dp"
+        android:layout_height="53dp"
+        android:layout_alignBottom="@+id/textView44"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="26dp"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:layout_below="@+id/textView44"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="11dp"
+        android:background="@color/white"
+        android:paddingLeft="5dp"
+        android:text="SM LIGHTFANS COLLECTION" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView45"
+        android:layout_alignTop="@+id/textView45"
+        android:layout_alignEnd="@+id/textView45"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="193dp"
+        android:text="09.00 wib - 17.00 wib Perumahan Puri Indah No. B - 04, Suko, Sidoarjo, Jawa Timur" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="98dp"
+        android:layout_below="@+id/textView45"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="11dp"
+        android:background="@color/white"
+        android:paddingLeft="5dp"
+        android:text="YG FAMS LIGHTSTICK" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView47"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="199dp"
+        android:text="08.00 wib - 17.00 wib Pondok Mutiara Regency No. C - 10, Jati, Sidoarjo, Jawa Timur" />
+
+</RelativeLayout>
